@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <script src="statobashi.js"></script>
+        <script>
+            window.onload = function () {
+                statobashi.init();
+
+                statobashi.launch();
+
+                setInterval(statobashi.launch, 5000);
+            };
+        </script>
+    </head>
+    <body>
+        <button onclick="statobashi.launch()">launch</button>
+    </body>
+</html>
